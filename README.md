@@ -9,4 +9,4 @@ sudo apt install iproute
 sudo tc qdisc add dev lo root netem loss xx%
 
 to disable packet loss:
-sudo tc qdisc del dev lo root netem
+sudo tc qdisc del dev lo root netem 
